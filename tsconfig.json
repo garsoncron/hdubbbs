@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "app/*": ["./packages/app/*"],
+      "shadcn-ui-components/*": ["./packages/design/shadcn-ui/components/*"],
+      "shadcn-ui-lib/*": ["./packages/design/shadcn-ui/lib/*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "extends": "expo/tsconfig.base"
+}
